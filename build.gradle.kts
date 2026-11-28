@@ -39,6 +39,8 @@ dependencies {
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.2.1")
 
     // Tests
+    testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
+    testImplementation("com.google.truth:truth:1.4.5")
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
